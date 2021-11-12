@@ -42,8 +42,8 @@ public class TestBase {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide().screenshots(true).savePageSource(true));
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
-        capabilities.setCapability("videoName", "ChudoPizzaTestCaseForFirstSendOrder.mp4");
-        capabilities.setCapability("name", "ChudoPizzaTestCaseForFirstSendOrder");
+        capabilities.setCapability("videoName", "CastelsardoTestCaseForFirstSendOrder.mp4");
+        capabilities.setCapability("name", "CastelsardoTestCaseForFirstSendOrder");
         capabilities.setCapability("browserName", "chrome");
         capabilities.setCapability("browserVersion", "91.0");
 
